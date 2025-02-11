@@ -6,9 +6,7 @@ struct ContentView: View {
             List {
                 Section("SwiftUI") {
                     NavigationLink("Observation") {
-                        VStack {
-                            Text("Hello")
-                        }
+                        ObservationView()
                     }
                     NavigationLink("Combine") {
                     }
