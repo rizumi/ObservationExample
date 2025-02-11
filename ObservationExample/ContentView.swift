@@ -9,6 +9,7 @@ struct ContentView: View {
                         ObservationView()
                     }
                     NavigationLink("Combine") {
+                        CombineView()
                     }
                 }
                 Section("UIKit") {
