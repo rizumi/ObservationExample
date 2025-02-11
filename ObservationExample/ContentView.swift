@@ -13,7 +13,8 @@ struct ContentView: View {
                     }
                 }
                 Section("UIKit") {
-                    Button("Observation") {
+                    NavigationLink("Observation") {
+                        ObservationViewControllerRepresentable()
                     }
                     NavigationLink("Combine") {
                         CombineViewControllerRepresentable()
